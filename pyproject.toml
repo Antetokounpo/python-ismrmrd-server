@@ -11,3 +11,13 @@ dependencies = [
     "pydicom==3.0.1",    # used by dicom2mrd.py to parse DICOM data
     "numpy>=1.26.0",
 ]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+ 
+[tool.setuptools.packages.find]
+where = ["src"]
+ 
+[tool.setuptools.package-dir]
+"" = "src"
