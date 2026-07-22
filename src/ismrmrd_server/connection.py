@@ -10,7 +10,7 @@ import socket
 import numpy as np
 import uuid
 
-from .connection import Connection
+from . import constants
 
 class Connection:
     def __init__(self, socket, savedata, savedataFile = "", savedataFolder = "", savedataGroup = "dataset"):
