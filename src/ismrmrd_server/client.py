@@ -10,10 +10,12 @@ import socket
 import sys
 import ismrmrd
 import multiprocessing
-from connection import Connection
 import time
 import os
 import json
+
+from .connection import Connection
+
 
 defaults = {
     'filename':           '',

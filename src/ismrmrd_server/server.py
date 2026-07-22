@@ -1,6 +1,6 @@
 
-import constants
-from connection import Connection
+from . import constants
+from .connection import Connection
 
 import socket
 import logging

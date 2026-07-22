@@ -1,4 +1,3 @@
-import constants
 import ismrmrd
 import ctypes
 import os
@@ -6,11 +5,12 @@ from datetime import datetime
 import h5py
 import random
 import threading
-
 import logging
 import socket
 import numpy as np
 import uuid
+
+from .connection import Connection
 
 class Connection:
     def __init__(self, socket, savedata, savedataFile = "", savedataFolder = "", savedataGroup = "dataset"):
