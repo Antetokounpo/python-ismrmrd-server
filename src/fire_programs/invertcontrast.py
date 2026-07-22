@@ -10,8 +10,8 @@ import xml.dom.minidom
 import base64
 import ctypes
 import re
-import mrdhelper
-import constants
+from ..ismrmrd_server import mrdhelper
+from ..ismrmrd_server import constants
 from time import perf_counter
 
 # Folder for debug output files

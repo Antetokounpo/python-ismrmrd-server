@@ -6,7 +6,7 @@ import logging
 import numpy as np
 import numpy.fft as fft
 import ctypes
-import mrdhelper
+from ..ismrmrd_server import mrdhelper
 from datetime import datetime
 
 # Folder for debug output files

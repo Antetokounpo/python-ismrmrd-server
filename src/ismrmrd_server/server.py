@@ -12,9 +12,9 @@ import json
 import signal
 import sys
 
-import simplefft
-import invertcontrast
-import analyzeflow
+from ..fire_programs import simplefft
+from ..fire_programs import invertcontrast
+from ..fire_programs import analyzeflow
 
 class Server:
     """
